@@ -159,7 +159,8 @@ main .about .about-img img{
 	border-radius: 10px;
 	box-shadow: 2px 2px 13px rgba(0,0,0,0.3);
 	position: relative;
-        height: auto;
+      height: auto;
+      cursor: pointer;
 
 }
 .p-box img{
