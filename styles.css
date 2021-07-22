@@ -13,6 +13,7 @@ body{
 }
 html{
       font-family: 'Roboto Condensed', sans-serif;
+      scroll-behavior: smooth;
 }
 header{
       position: fixed;
