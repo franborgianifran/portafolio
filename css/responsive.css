@@ -1,0 +1,93 @@
+:root{
+    --black: #3b3b44;
+    --white: #eaeae3;
+    --primary: #f24f8c;
+    --secondary: #9ab1b1;
+}
+@media(max-width:1000px){
+    .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about--text{
+        width: 80vw;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .about-me img{
+        width: 98vw;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 80px;
+    }
+}
+@media(max-width:800px){
+    .nav--bar img{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 6px;
+        right: 20px;
+    }
+    .nav--bar{
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+    .nav--bar a{
+        margin-left: 20px;
+    }
+    .nav--bar ul{
+        width: 100%;
+    }
+    .nav--bar ul li a{
+        font-weight: 700;
+        font-size: 28px;
+        margin: 0;
+        text-align: center;
+    }
+    .nav--bar ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: -1000px;
+        align-items: center;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .8);
+        justify-content: space-evenly;
+    }
+    .nav--bar .nav--menu-active{
+        top: 60px;
+        bottom: 0px;
+        transition: ease all 1.7s;
+    }
+    .nav--bar ul li a:hover{
+        background-color: transparent;
+    }
+}
+@media(max-width: 600px){
+    .about--text h1{
+        font-size: 36px;
+    }
+    .about--text h6{
+        font-size: 16px;
+    }
+    .about--text p{
+        font-size: 26px;
+    }
+}
+@media(max-width:430px){
+    .about--text h1{
+        font-size: 28px;
+    }
+    .about--text h6{
+        font-size: 12px;
+    }
+    .about--text p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
